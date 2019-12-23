@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Addition</title>
+    </head>
+    <body>
+        <script>
+              var addition = function(n){
+                  if(n==0)
+                  {
+                      return 0;
+                  }
+                  else{
+                      return n + addition(n-1);
+                  }
+              }  
+              alert(addition(5));
+        </script>
+    </body>
+</html>
