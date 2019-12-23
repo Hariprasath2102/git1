@@ -1,0 +1,49 @@
+<html>
+    <head> 
+        <title> CSS3 </title>
+    </head>
+    <body>
+        <style>
+            #done{
+                margin: 300px;
+                border: 2px solid blue;
+                border-radius: 10px;
+                width: 200px;
+                height: 200px;
+                box-shadow: 10px 10px 0px 2px lightblue;
+            }
+            body{
+                border: 2px solid grey;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            #one{
+                float: left;
+                width:50%;
+                border: 4px solid blue;
+                padding: 10px;
+            }
+            #two{
+                float: right;
+                width:50%;
+                border: 4px solid blue;
+                padding: 10px;
+            }
+            #dtwo{
+                margin: 100px;
+                background: radial-gradient( white,blue,green,red);
+                width:200px;
+                height: 200px;
+                transform: translate(300px,300px);
+                transform: rotate(45deg);
+                transform: skew(45deg);
+                transform: scale(0.7);
+            }
+        </style>
+        <h2 id="one"> Hello </h2>
+        <h2 id="two"> Hello </h2>
+        <div id="done"></div>
+        <div id="dtwo"></div>
+    </body>
+</html>
